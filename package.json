@@ -1,0 +1,23 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".\\app\\index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermeterio/fc3-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermeterio/fc3-ci/issues"
+  },
+  "homepage": "https://github.com/ermeterio/fc3-ci#readme",
+  "dependencies": {
+    "jest": "^28.1.2",
+    "test": "^3.0.1"
+  }
+}
