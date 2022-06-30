@@ -1,0 +1,19 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000f\u0000c\u00003\u0000-\u0000c\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermeterio/fc3-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermeterio/fc3-ci/issues"
+  },
+  "homepage": "https://github.com/ermeterio/fc3-ci#readme"
+}
