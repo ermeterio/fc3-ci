@@ -1,6 +1,5 @@
 name: Node.js CI
-
-on: [pull_request]
+on: [push]
 
 jobs:
   check-application:
@@ -35,3 +34,4 @@ jobs:
         with:
           push: true
           tags: ermeterio/fc3-ci:latest
+
