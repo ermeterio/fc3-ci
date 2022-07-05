@@ -2,5 +2,5 @@ projectKey=fc3-ci
 serverUrl=http://localhost:9000
 serverVersion=9.5.0.56709
 dashboardUrl=http://localhost:9000/dashboard?id=fc3-ci
-ceTaskId=AYHL6Mv8nmSLlskQUz6l
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYHL6Mv8nmSLlskQUz6l
+ceTaskId=AYHMAz-mnmSLlskQUz6m
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYHMAz-mnmSLlskQUz6m
