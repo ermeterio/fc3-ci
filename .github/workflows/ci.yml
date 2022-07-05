@@ -1,5 +1,4 @@
 name: Node.js CI
-
 on: [push]
 
 jobs:
@@ -35,3 +34,4 @@ jobs:
         with:
           push: true
           tags: ermeterio/fc3-ci:latest
+
