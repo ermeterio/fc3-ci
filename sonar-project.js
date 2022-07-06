@@ -12,5 +12,6 @@ sonarqubeScanner(
             'sonar.testExecutionReportPaths':  'coverage/test-reporter.xml',
             'sonar.login' : 'sqp_6c64f1a9160db76ce5ac36c80036663c669031df'
         }
+
     });
     
