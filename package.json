@@ -1,0 +1,42 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".\\app\\index.js",
+  "scripts": {
+    "sonar":  "node sonar-project.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment":  "node",
+    "coveragePathIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "testResultsProcessor":  "jest-sonar-reporter"
+  },
+  "jestSonar": {
+      "reportPath":  "coverage",
+      "reportFile":  "test-reporter.xml",
+      "indent":  4
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermeterio/fc3-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermeterio/fc3-ci/issues"
+  },
+  "homepage": "https://github.com/ermeterio/fc3-ci#readme",
+  "dependencies": {
+    "jest": "^28.1.2",
+    "test": "^3.0.1"
+  },
+  "devDependencies": {
+    "coverage-node": "^6.1.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^2.8.1",
+    "supertest": "^6.2.3"
+  }
+}
